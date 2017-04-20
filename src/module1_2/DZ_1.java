@@ -1,4 +1,4 @@
-package module1.module1_2;
+package module1_2;
 
 import java.util.Arrays;
 import java.util.Scanner;
