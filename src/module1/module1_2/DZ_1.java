@@ -10,10 +10,10 @@ import java.util.Scanner;
 public class DZ_1 {
     public static void main(String[] args) {
 
-        int count = 1;
         int size;
-        int i;
         int[] arrNumber;
+        int i;
+        int count = 1;
         int item;
 
         Scanner scanner = new Scanner(System.in);
@@ -24,7 +24,7 @@ public class DZ_1 {
         System.out.println("Please, enter array elements: ");
 
         for (i = 0; i < arrNumber.length; i++) {
-            System.out.print("\tenter element" + count++ + ": ");
+            System.out.print("\tenter element " + count++ + ": ");
             arrNumber[i] = scanner.nextInt();
             }
 
