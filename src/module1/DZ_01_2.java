@@ -23,6 +23,7 @@ public class DZ_01_2 {
                 System.out.println("Enter number" + count++ + ": ");
                 arrNumber[i] = scanner.nextInt();
             }
+            scanner.close();
             System.out.print("Initial array: " + Arrays.toString(arrNumber));
         }
         catch (Exception e){
@@ -32,6 +33,5 @@ public class DZ_01_2 {
         Arrays.sort(arrNumber);
         System.out.print("\nSorted array:  " + Arrays.toString(arrNumber));
 
-        scanner.close();
     }
 }

@@ -13,8 +13,9 @@ public class DZ_01_1 {
         System.out.println("Enter your name: ");
 
         String name = scanner.nextLine();
+        scanner.close();
+
         System.out.println("\nHello, " + name);
 
-        scanner.close();
     }
 }
