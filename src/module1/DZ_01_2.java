@@ -31,5 +31,7 @@ public class DZ_01_2 {
 
         Arrays.sort(arrNumber);
         System.out.print("\nSorted array:  " + Arrays.toString(arrNumber));
+
+        scanner.close();
     }
 }
